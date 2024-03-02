@@ -13,15 +13,15 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6100891233:AAHo_OjnFWTdY_JewRdcqphxASAcAK1IHVg") #@dgfghgjbot 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5976236595:AAHqWGPgJKMroDoM1i9jZOMVjNFHs-MAfaU") #@dgfghgjbot 
 
     #BOT_TOKEN = os.environ.get("BOT_TOKEN", "5872747581:AAH7_XPCOCEVfbgUhepjJWlcOmj8wjDTjBk") #@jn_url_v3_bot
     
-    API_ID = int(os.environ.get("API_ID", "3393749"))
+    API_ID = int(os.environ.get("API_ID", "16008660"))
 
-    API_HASH = os.environ.get("API_HASH", "a15a5954a1db54952eebd08ea6c68b71")
+    API_HASH = os.environ.get("API_HASH", "a40f901dbfdca8909907caabf840f606")
 
-    OWNER_ID = int(os.environ.get("OWNER_ID", "1061576483"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1412592290"))
     
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1061576483").split())
 
